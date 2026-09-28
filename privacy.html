@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Highlights Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #FAFAF7;
+    --ink: #1B1B1F;
+    --muted: #5C5C66;
+    --rule: #E3E2DC;
+    --accent: #7C5CE6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141418; --ink: #ECEBF2; --muted: #A5A4B0; --rule: #2B2B33; --accent: #A78BFA;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141418; --ink: #ECEBF2; --muted: #A5A4B0; --rule: #2B2B33; --accent: #A78BFA;
+    color-scheme: dark;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-inline: 20px;
+    padding-block: 48px 80px;
+  }
+  main { max-width: 65ch; margin: 0 auto; }
+  .eyebrow {
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); font-weight: 500; margin: 0 0 8px;
+  }
+  h1 {
+    font-family: "IBM Plex Serif", Georgia, serif; font-weight: 600;
+    font-size: 32px; line-height: 1.2; margin: 0 0 8px; text-wrap: balance;
+  }
+  .meta { color: var(--muted); margin: 0 0 32px; padding-bottom: 24px; border-bottom: 1px solid var(--rule); }
+  h2 {
+    font-family: "IBM Plex Serif", Georgia, serif; font-weight: 500;
+    font-size: 20px; margin: 36px 0 8px; text-wrap: balance;
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .table-wrap { overflow-x: auto; margin: 0 0 14px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 500; color: var(--muted); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Highlights</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 29 September 2026</p>
+
+  <h2>1. Summary</h2>
+  <p>Highlights is a video tool that runs on the operator's own computer. It connects to the operator's own TikTok account and YouTube channel to post highlight reels. It has no server, no user database, and no analytics. The only personal data it handles is the access token each platform issues when you connect an account, and that token stays on the computer running Highlights.</p>
+
+  <h2>2. Data Highlights receives from TikTok</h2>
+  <p>When you connect TikTok, Highlights receives the following through TikTok's Login Kit and Content Posting API:</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Data</th><th>Why it is used</th><th>Where it is kept</th></tr>
+      <tr><td>Access token and refresh token</td><td>To post videos to your account and renew the connection</td><td>A file on the operator's computer, readable only by the operator's user account</td></tr>
+      <tr><td>Open ID</td><td>To confirm which account is connected</td><td>Same file</td></tr>
+      <tr><td>Display name and username</td><td>Shown next to the TikTok option so you can see which account will receive the post</td><td>Read on demand, not stored</td></tr>
+      <tr><td>Posting options (privacy levels, maximum video length)</td><td>To choose a privacy level the account allows and to refuse videos that are too long before uploading</td><td>Read on demand, not stored</td></tr>
+    </table>
+  </div>
+  <p>Highlights does not read your followers, likes, comments, messages, or any videos other than the ones it posts.</p>
+
+  <h2>3. Data Highlights receives from YouTube</h2>
+  <p>When you connect YouTube, Highlights receives an access token and refresh token with permission to upload videos. They are stored the same way as the TikTok tokens. Highlights does not read your channel, subscribers, or existing videos.</p>
+
+  <h2>4. What Highlights sends to the platforms</h2>
+  <p>When you start a render with the upload option ticked, Highlights sends the finished video file and its title to each platform you selected. The TikTok post is made with the privacy level you have available and never with a level you have not approved.</p>
+
+  <h2>5. Data that never leaves your computer</h2>
+  <ul>
+    <li>The broadcast recording and the clips cut from it.</li>
+    <li>The timestamps you type.</li>
+    <li>Render settings and finished videos.</li>
+    <li>Server logs, which record the posting steps and TikTok's tracking ID for each post.</li>
+  </ul>
+
+  <h2>6. Sharing</h2>
+  <p>Highlights does not sell, share, or transfer any data to anyone other than the platform you are posting to. There are no advertising or analytics providers.</p>
+
+  <h2>7. Retention and deletion</h2>
+  <p>Tokens are kept until you disconnect. To disconnect, remove the app under your TikTok settings (Security and permissions, then Manage app permissions) or your Google account permissions. You can also delete the token files from the computer running Highlights. Either action stops all posting immediately.</p>
+  <p>Posts already made stay on your account under your control and can be edited or deleted from the TikTok or YouTube app.</p>
+
+  <h2>8. Security</h2>
+  <p>Token files are written with permissions that restrict them to the operator's own user account. Highlights never prints tokens to its logs and never sends them anywhere except to the platform that issued them.</p>
+
+  <h2>9. Children</h2>
+  <p>Highlights is an operator's tool and is not directed at children. It does not knowingly collect data from anyone under 13.</p>
+
+  <h2>10. Changes</h2>
+  <p>This policy may change when Highlights gains or loses features. The effective date at the top of this page shows the latest version.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions about this policy can be sent to the Esport Highlights account on TikTok, <strong>@esporthighlightsglobal</strong>.</p>
+
+  <footer>See also the <a href="terms.html" >Highlights Terms of Service</a>.</footer>
+</main>
+</body>
+</html>
